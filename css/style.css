@@ -10,8 +10,9 @@ body{
 /*Barra*/
 .navbar-container{
     width: 100%;
-    height: 80px;
+    height: 70px;
     background-color: #ffd900;
+    position: fixed;
 }
 
 .logo-container{
@@ -22,36 +23,13 @@ body{
     justify-content: center;
 }
 
-/*--------------------------opções------------------------------
-.restaurants{
-    
-    line-height: 120px;
-    margin: 0;
-    display: inline-block;
-    
-}
-
-.accommodation{
-    right: 65rem;
-    line-height: 120px;
-    margin: 0;
-    display: inline-block;
-}
-
-.nav-items a{
-    text-decoration: none;
-    color: #00c3ff;
-}
-
--------------------------------------------------------------*/
-
 .nav{
     position: relative;
 }
 
 .logo{
-    width: 150px;
-    margin-top: 10px;
+    width: 140px;
+    margin-top: 3px;
 }
 
 /*banner*/
@@ -59,8 +37,8 @@ body{
     background-image: url("/assets/159406-Recife-And-Vicinity.jpg");
     background-size: cover;
     background-position: 100%;
-    box-shadow: 0px 40px 80px #E8D7BF;
-    padding: 20rem 0;
+    box-shadow: 0px 100px 100px #E8D7BF;
+    padding: 30rem 0;
 }
 
 .banner-container h1, 
@@ -79,6 +57,61 @@ body{
     font-size: 26px;
     padding: 1rem 10rem;
 }
+/*Opções*/
+
+
+.options{
+    padding: 5rem 0;
+}
+
+.options a{
+    text-decoration: none;
+}
+
+.options h2{
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.options ul{
+    display:flex;
+    width: 35%;
+
+}
+
+.options ul{
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.options li{
+    margin: 0 auto;
+    list-style: none;
+
+}
+
+.options p{
+    
+    font-weight: bold;
+    color: #202020;
+    font-size: 15px;
+}
+
+.fas{
+    font-size: 60px;
+}
+
+.fa-bed{
+    color: #2b8fd1;
+    padding-left: 10px;
+}
+
+.fa-concierge-bell{
+    color: #91281a;
+    padding-left: 16px;
+}
 
 /*Infos*/
 
@@ -90,6 +123,7 @@ body{
     width: 500px;
     height: 470px;
     border-radius: 50%;
+    box-shadow: 0px 0px 10px #000;
 }
 
 .location ul{
